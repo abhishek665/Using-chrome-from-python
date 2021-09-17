@@ -16,7 +16,7 @@ while True:
 
     for i in range(0, 30):
         #element = driver.fin
-        driver.get("https://www.sxpon.com")
+        driver.get("https://www.url.com")
         driver.find_element_by_link_text('Any Text').click()
         time.sleep(random.randint(0, 20))
         print("clicked")
